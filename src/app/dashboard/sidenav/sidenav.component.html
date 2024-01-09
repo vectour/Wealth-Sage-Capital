@@ -1,0 +1,32 @@
+<!-- <div class="sidenav" [ngClass]="collapse ? 'sidenav-collapsed': ''">
+    <div class="logo-container mt-4 d-flex align-items-center justify-content-center">
+        <i class='bx bxs-bank me-2 fs-3' (click)="toggleCollapse()"></i>
+        <div class="logo-text fw-bold fs-4" *ngIf="!collapse"><span class="wealth">Wealth</span> Capital</div>
+    </div>
+    <ul class="sidenav-nav mt-5">
+        <li class="sidenav-nav-item" *ngFor="let data of navData">
+            <a href= "" class="sidenav-nav-link ps-1"
+            [routerLink]="[data.routeLink]">
+                <i class="sidenav-link-icon pe-3 fs-4" [class] = "data.icon"></i>
+                <span class="sidenav-link-text fw-bold" *ngIf="!collapse">{{data.label}}</span>
+            </a>
+        </li>
+    </ul>
+</div> -->
+
+<div class="sidenav">
+    <div class="logo-container mt-2 d-flex align-items-center justify-content-center">
+        <i class='bx bxs-bank me-2 fs-3' (click)="toggleCollapse()"></i>
+        <div class="logo-text fw-bold fs-4" *ngIf="collapse"><span class="wealth">Wealth</span> Capital</div>
+    </div>
+    <ul class="sidenav-nav mt-5">
+        <li class="sidenav-nav-item" *ngFor="let data of navData">
+            <a href= "" class="sidenav-nav-link pe-2"
+            [routerLink]="[data.routeLink]">
+                <i class="sidenav-link-icon px-2 fs-4" [class] = "data.icon"></i>
+                <span class="sidenav-link-text fw-bold" *ngIf="collapse">{{data.label}}</span>
+            </a>
+        </li>
+    </ul>
+
+</div>

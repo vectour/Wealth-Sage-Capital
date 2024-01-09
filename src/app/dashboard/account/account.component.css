@@ -1,0 +1,51 @@
+
+.welcome {
+    background-color: #ece6e6;
+}
+
+.btn-act {
+    bottom: 0;
+}
+
+.btn-act-item{
+    margin-right: 10px;
+    padding: 5px 15px;
+    background-color: var(--white-color);
+    font-weight: bold;
+    border-radius: 3px 3px 0 0;
+    border: 1px solid #ece6e6;
+    color: var(--color-main);
+}
+
+.funded{
+    color: #8b3a0e;
+}
+
+.act-content button{
+    border-radius: 5px;
+    border: none;
+}
+
+.btn-act-new{
+    color: var(--white-color);
+    padding: 8px 16px;
+    background-color: var(--color-main);
+}
+
+
+
+.account-item{
+    border: 1px solid #aca9a9;
+    border-radius: 10px;
+}
+
+.btn-dashboard{
+    background-color: #d99c7b;
+    padding: 8px 16px;
+    color: var(--white-color);
+}
+
+.active{
+    background: var(--color-main);
+    color: var(--white-color);
+}

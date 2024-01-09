@@ -1,0 +1,62 @@
+<div class="contain">
+    <div class="welcome">
+        <div class="text-center py-5">
+            <p class="fw-bold fs-4">Welcome to <span class="funded">Wealth</span>Capital</p>
+            <p class="fs-6">COMPLETE the Challenge Phases<br> HARNESS Your Trading Skills <br>UNLOCK Your FundedNext Account</p>
+    
+        </div>
+    
+        <div class="btn-act ">
+            <button class="btn-act-item" (click)="setLink(1)" [ngClass]="{'active': activeLink === 1}"> Active Accounts</button>
+            <button class="btn-act-item" (click)="setLink(2)" [ngClass]="{'active': activeLink === 2}"> Inactive Accounts</button>
+            <button class="btn-act-item" (click)="setLink(3)" [ngClass]="{'active': activeLink === 3}"> Breached Accounts</button>
+        </div>
+
+    </div>
+    <div class="act-content px-5 py-4" > 
+        <button class="btn-act-new mb-3 d-flex align-items-center"> Create New Account <i class='bx bx-chevron-right ps-3'></i></button>
+        <div class="row">
+            <div class="col-8">
+                <div class="account-item d-flex p-4 justify-content-between align-items-center" *ngIf="activeLink === 1">
+                    <div>
+                        <div></div>
+                        <p class="fw-bold fs-5">Free Dashboard Tour|Login: <span class="text-primary">00000</span></p>
+                        <p>You can experience our rich dashboard with this demo account</p>
+                    </div>
+                    <button class="btn-dashboard fw-bold">Dashboard</button>
+                </div>
+                <div class="py-4 px-5 text-center" *ngIf="activeLink === 2">
+                    <img src="assets/images/no-account.png">
+                    <p class="fw-bold fw-4 mt-5">No inactive accounts</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima quaerat, voluptatibus deserunt illo similique dicta distinctio minus ab? Corrupti error maiores non facilis nobis qui! Dicta alias deserunt ad sit.
+                    Architecto, quis eum? Sapiente soluta suscipit autem similique nemo mollitia unde, sequi enim totam deleniti accusamus labore repudiandae ducimus quae aperiam nulla facilis, saepe nam quaerat corporis! Illum, fugit voluptatem.
+                    Incidunt voluptas accusamus quae odit animi. Fugiat possimus voluptate quisquam optio! Sunt quia numquam temporibus quidem. Placeat iusto, ad quos, reiciendis voluptatibus numquam neque tempora tenetur maiores rem nihil. Recusandae?
+                    Nisi odit dolorem quasi velit numquam dignissimos expedita eum recusandae hic temporibus dolorum totam rem debitis commodi magnam molestias doloribus exercitationem non, odio quos illum cumque quis consectetur? Incidunt, deleniti?
+                    Quia a id minima et, similique alias in nam, ab pariatur numquam officiis dolore, voluptas necessitatibus magnam sunt incidunt. Nihil esse architecto reprehenderit tempora officia corporis, deserunt nam eum maiores.
+                    Labore similique optio eos in, doloribus tenetur velit doloremque inventore dolores debitis mollitia commodi quos, et veritatis praesentium maxime at? Excepturi ea, sed eius consequuntur autem error repellendus suscipit perferendis.
+                    Sunt amet velit minus inventore quis nesciunt labore rerum, in culpa consequatur vero a maxime! Corporis laudantium molestias officiis, blanditiis aliquam voluptatum quasi labore, molestiae nihil impedit, doloremque dolor vero!
+                    Consectetur provident quia quae adipisci temporibus similique, culpa voluptates hic maxime voluptate impedit suscipit eos quod. Ut qui ab, sit hic perspiciatis cupiditate sapiente error accusantium animi nesciunt. Voluptate, earum.
+                    Quaerat veritatis facere natus cum. Vitae laborum ad, at dolore illum facilis, odit sapiente deserunt aspernatur quibusdam omnis quaerat, amet quos quasi alias? Ad quasi culpa debitis deleniti maxime recusandae.
+                    Aliquam sed rerum voluptatum. Explicabo suscipit sint repudiandae, vitae laborum repellat, deserunt natus, exercitationem ducimus qui reiciendis. Eum id corporis fuga qui dolorum. Blanditiis tempora et officia omnis. Fugiat, mollitia.
+                    Asperiores vero cum modi a non consequatur expedita saepe fugiat ullam tempora. Magni quia reprehenderit accusamus, non quod eligendi repellat vel minima odit esse odio nisi. Delectus alias voluptates labore?
+                    Animi enim expedita delectus quisquam omnis eaque quaerat, molestiae sunt, sequi consectetur assumenda similique obcaecati soluta. Dolores doloremque molestiae, hic, quidem placeat, ipsam laudantium ipsum beatae itaque asperiores necessitatibus iure?
+                    Perspiciatis ut repudiandae, ea dolorum impedit rerum officia amet suscipit animi sed corrupti cupiditate debitis adipisci laboriosam voluptas odio? Quas sunt autem sapiente, nesciunt quae corporis totam error nisi iure.
+                    Quaerat, illum consequatur quidem recusandae non voluptatibus earum beatae, commodi culpa facilis vel quasi, assumenda atque harum debitis dolorem magnam sequi quam cum qui temporibus nisi dolores aspernatur exercitationem. Dignissimos.
+                    Veritatis sunt porro ratione doloremque amet quae earum sit libero dolorem deserunt nulla tenetur dolores, magnam est maiores inventore rem deleniti quod ipsum? Ipsa dolores distinctio error, quis similique nobis!
+                    Tempore ea qui ipsa exercitationem sit soluta fugit nesciunt dolorem rerum quidem tempora provident recusandae aliquid, suscipit adipisci porro eum et laudantium! Eligendi provident magnam recusandae laudantium quisquam nam eum.
+                    At earum provident consectetur sunt, aspernatur, ad saepe incidunt aperiam et exercitationem eum. Laboriosam doloribus, tempore quas nihil repellat libero aperiam numquam quam earum impedit perferendis soluta natus asperiores sunt.
+                    Amet repellat tenetur vitae? Quia ea numquam velit eos dolore at debitis, quis quibusdam nemo eaque sit, iure in reprehenderit itaque exercitationem nulla tempora nam excepturi repellendus vitae modi iste?
+                    Ipsam ullam vero asperiores aliquam quis laboriosam, perferendis tempore. Ipsum quisquam, voluptates odit ducimus at minus qui quibusdam quam aliquam ex accusamus voluptatem esse, molestiae alias. Iure cupiditate architecto minima.
+                    Enim deleniti perferendis aut! Culpa veritatis distinctio deleniti porro commodi. Magnam sit veritatis, suscipit necessitatibus consectetur cum sunt sed inventore cupiditate rem explicabo commodi non velit laboriosam vitae quae aut!</p>
+                </div>
+                
+
+            </div>
+            <div class="col-4"></div>
+            
+        </div>
+    </div>
+
+    
+
+</div>

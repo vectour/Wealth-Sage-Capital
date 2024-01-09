@@ -1,0 +1,52 @@
+.dashboard{
+    width: 100%;
+}
+
+.sidenav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    background-color: #8b3a0e;
+    padding: 0.4rem 0.8rem;
+    width: 80px;
+    transition: all 0.3s ease;
+    z-index: 100;
+}
+
+.body{
+    position: relative;
+    top: 0;
+    left: 80px;
+    width: calc(100% - 80px);
+    transition: all 0.3s ease;
+}
+
+.body::-webkit-scrollbar {
+    display: none;
+  }
+  
+
+.header{
+    position: fixed;
+    width: inherit;
+    z-index: 10;
+}
+
+.content{
+    position: relative;
+    top: 50px;
+    z-index: 0;
+}
+
+.sidenav.active {
+    width: 250px;
+}
+
+.sidenav.active ~ .body{
+    left: 250px;
+    width: calc(100vw - 250px);
+}
+
+
+

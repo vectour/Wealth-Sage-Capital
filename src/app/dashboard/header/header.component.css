@@ -1,0 +1,38 @@
+.header{
+    height: 50px;
+    background-color: #eee;
+}
+
+.toggler{
+    cursor: pointer;
+}
+
+.profile-picture{
+    width: 40px;
+    height: 40px;
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.profile-picture img{
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.profile{
+    border-radius: 5px;
+}
+
+.profile:hover{
+    background-color: #eceaea ;
+}
+
+.right .btn{
+    background-color: #8b3a0e ;
+    color: #ffffff;
+}

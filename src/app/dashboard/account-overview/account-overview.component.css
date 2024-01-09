@@ -1,0 +1,153 @@
+.contain{
+    width: inherit;
+    background: linear-gradient(135deg, rgba(224, 161, 113, 0.933), #ddd5d0);
+}
+
+.act-summary{
+    background: var(--white-color);
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.act-dp{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.act-dp img{
+    width: 48px;
+    height: 48px;
+    object-fit: cover;
+    border-radius: 50%;
+
+}
+
+.act-summary h4{
+    color: var(--color-main);
+    font-weight: 900;
+    font-size: 1rem;
+}
+
+.act-title{
+    color: var(--color-main);
+    font-weight: 600;
+}
+
+.act-summary ul {
+    list-style: none;
+}
+                                                                                                                                                                                                                                                                                                                              
+.act-detail-item{
+    background: #f9f9ff;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 500;
+}
+
+.act-detail-item span{
+    color: var(--dark-color);
+    font-weight: 600;
+
+}
+
+.divider{
+    right: 0;
+    height: 100%;
+    background-color: #ccc;
+    width: 1px;
+}
+
+.act-card{
+    background: var(--white-color);
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.vert-divider{
+    height: 1px;
+    background-color: #ccc;
+    width: 100%;
+}
+
+.act-stat-item{
+    width: 90%;
+    background-color: #d7eefc;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.act-stat-item i{
+    color: var(--color-main);
+
+}
+
+.act-stat-item p{
+    font-size: 0.875em;
+}
+
+.act-stat-item span{
+    font-weight: 900;
+}
+
+
+/* Trade Objective */
+
+.act-trade-obj-item{
+    background: #f0f4ff;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #9cd2ee;
+}
+
+.act-trade-obj-icon{
+    background: #fff;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    color: var(--color-main);
+    display: flex;
+    align-items: center;
+}
+
+.act-trade-obj-item button{
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    background-color: #d2cfff;
+    font-size: 12px;
+}
+
+.act-trade-obj-item span{
+    font-weight: 500;
+}
+
+.btn-green{
+    background: #eaffe5;
+}
+
+/* Account Growth */
+.act-others {
+    width: 90%;
+    background: #e9e8ff;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.act-growth{
+    background: #1b2541;
+    width: 100%;
+    border-radius: 15px;
+    color: var(--white-color);
+}

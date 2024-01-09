@@ -1,0 +1,61 @@
+/* My design */
+
+
+.sidenav{
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+}
+
+
+.logo-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.sidenav-nav{
+    list-style: none;
+    padding: 0.938rem;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    height: calc(100%-3.65rem);
+    cursor: pointer;
+}
+
+.sidenav-nav-item{
+    width: 100%;
+    margin-bottom: 0.625rem;
+    list-style: none;
+}
+
+.sidenav-nav-link{
+    display: flex;
+    align-items: center;
+    height: 3rem;
+    color: #f3f3f3;
+    text-decoration: none;
+    border-radius: 0.625rem;
+    transition: all .3s ease;
+    text-wrap: nowrap;
+    text-align: center;
+}
+
+.sidenav-link-icon{
+    text-align: center;
+}
+
+.sidenav-nav-link:hover{
+    background-color: #ffffff;
+    color: #8b3a0e;
+}
+
+.wealth{
+    color: #eb7434;
+}
+
+
+

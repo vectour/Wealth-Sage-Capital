@@ -1,0 +1,110 @@
+.pointer{
+    cursor: pointer;
+}
+
+:root{
+    --primary-color: #2051f2;
+}
+
+h1{
+    font-size: calc(1.3em + 1vw);
+    font-weight: var(--fw-8);
+    line-height: 1;
+}
+
+h2{
+    font-size: 2.5em;
+}
+
+h3{
+    font-size: 1.2em;
+    font-weight: var(--fw-7);
+}
+
+h4{
+    font-size: 1em;
+    font-weight: var(--fw-6)
+}
+
+.primary-color{
+    color: var(--primary-color);
+}
+
+/* HEADER */
+.header{
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding: 15px 0;
+    align-items: center;
+}
+
+.nav-links{ 
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}
+
+.nav-links li{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.nav-links li:hover{
+    text-decoration: underline;
+    color: var(--color-main);
+    transition: 2s ease-in;
+}
+
+.nav-links a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.client-area{
+    width: 120px;
+    height: 40px;
+    font-size: 15px;
+    background-color: var(--color-main);
+    color: #ffffff;
+    border: none;
+}
+
+.client-area:hover {
+    background-color: white;
+    color: var(--color-main);
+    border: 2px solid var(--color-main);
+}
+
+/* INTRO SECTION */
+.intro-section{
+    background: #000000;
+}
+
+
+.forex-carousel{
+    min-height: 100vh;
+}
+
+.forex-continer{
+    padding: 10px 20px;
+}
+
+.container .coin-price{
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 3px #ccc;
+}
+
+/* Banners */
+
+.banner {
+    background-color: #ccc;
+    width: 10em;
+    height: 10em;
+}
+
+
+
+/* MEDIA QUERIES */

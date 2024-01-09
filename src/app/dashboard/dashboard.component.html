@@ -1,0 +1,13 @@
+<div class="dashboard">
+    <div class="sidenav d-none d-md-block" [ngClass]="collapsed? 'active': ''">
+        <app-sidenav></app-sidenav>
+    </div>
+    <div class="body">
+        <div class="header">
+            <app-header></app-header>
+        </div>
+        <main class="content">
+            <router-outlet></router-outlet>
+        </main>
+    </div>
+</div>

@@ -1,1 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
+:root{
+    --color-main: #8b3a0e;
+    --white-color: #ffffff;
+    --dark-color: #000000
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Nunito Sans';
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}

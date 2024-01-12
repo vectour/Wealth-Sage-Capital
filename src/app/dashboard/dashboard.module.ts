@@ -8,6 +8,7 @@ import { SidenavComponent } from './sidenav/sidenav.component';
 import { HeaderComponent } from './header/header.component';
 import { BodyComponent } from './body/body.component';
 import { AccountOverviewComponent } from './account-overview/account-overview.component';
+import { TradingOverviewComponent } from './trading-overview/trading-overview.component';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { AccountOverviewComponent } from './account-overview/account-overview.co
     SidenavComponent,
     HeaderComponent,
     BodyComponent,
-    AccountOverviewComponent
+    AccountOverviewComponent,
+    TradingOverviewComponent
   ],
   imports: [
     CommonModule,
@@ -30,7 +32,8 @@ import { AccountOverviewComponent } from './account-overview/account-overview.co
     HeaderComponent,
     AccountComponent,
     BodyComponent,
-    AccountOverviewComponent
+    AccountOverviewComponent,
+    TradingOverviewComponent
   ]
 })
 export class DashboardModule { }

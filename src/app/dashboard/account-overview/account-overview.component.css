@@ -1,12 +1,22 @@
 .contain{
     width: inherit;
-    background: linear-gradient(135deg, rgba(224, 161, 113, 0.933), #ddd5d0);
+    /* background: linear-gradient(135deg, rgba(224, 161, 113, 0.933), #ddd5d0); */
+    background: #d5cfcf;
+}
+
+/* Account Overview */
+.btn-login{
+    border: none;
+    border-radius: 10px;
+    background: #ffffff;
+    color: var(--color-main);
+
 }
 
 .act-summary{
-    background: var(--white-color);
     border-radius: 5px;
     border: 1px solid #ccc;
+    background: white;
 }
 
 .act-dp{
@@ -79,8 +89,8 @@
 }
 
 .act-stat-item{
-    width: 90%;
-    background-color: #d7eefc;
+    width: 70%;
+    background: #f0f4ff;
     display: flex;
     flex-direction: column;
     border-radius: 10px;
@@ -97,6 +107,7 @@
 
 .act-stat-item span{
     font-weight: 900;
+    color: var(--color-main);
 }
 
 
@@ -146,7 +157,7 @@
 }
 
 .act-growth{
-    background: #1b2541;
+    background: var(--color-main);
     width: 100%;
     border-radius: 15px;
     color: var(--white-color);
